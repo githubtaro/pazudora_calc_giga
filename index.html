@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>パズドラ計算機</title>
+		<link rel="stylesheet" href="css/mystyle.css" type="text/css">
+	</head>
+
+<body>
+	<h1>ギガグラビティ計算</h1>
+	<form name="form1">
+	<p>
+		1体目：
+		<select name="Gigagura_calc01" size="1" onchange="alert("hogehoge")">
+			<option value="0.35">ラース・オブ・ゴッド</option>
+			<option value="0.30">ギガグラビティ</option>
+			<option value="0.20">四神乱舞，ダークブラスター</option>
+			<option value="0.15">グラビティ，包丁</option>
+			<option value="0">選択なし</option>
+		</select>
+	</p>
+	
+	<p>
+		2体目：
+		<select name="Gigagura_calc02" size="1">
+			<option value="0.35">ラース・オブ・ゴッド</option>
+			<option value="0.30">ギガグラビティ</option>
+			<option value="0.20">四神乱舞，ダークブラスター</option>
+			<option value="0.15">グラビティ，包丁</option>
+			<option value="0">選択なし</option>
+		</select>
+	</p>
+	
+	<p>
+		3体目：
+		<select name="Gigagura_calc03" size="1">
+			<option value="0.35">ラース・オブ・ゴッド</option>
+			<option value="0.30">ギガグラビティ</option>
+			<option value="0.20">四神乱舞，ダークブラスター</option>
+			<option value="0.15">グラビティ，包丁</option>
+			<option value="0">選択なし</option>
+		</select>
+	</p>
+	
+	<p>
+		4体目：
+		<select name="Gigagura_calc04" size="1">
+			<option value="0.35">ラース・オブ・ゴッド</option>
+			<option value="0.30">ギガグラビティ</option>
+			<option value="0.20">四神乱舞，ダークブラスター</option>
+			<option value="0.15">グラビティ，包丁</option>
+			<option value="0">選択なし</option>
+		</select>
+	</p>
+	
+	<h2>割合ダメージ　確認用</h2>
+	<table>
+		<tr>
+			<td>ラース・オブ・ゴッド</td>
+			<td>35%</td>
+		</tr>
+		<tr>
+			<td>ギガグラビティ</td>
+			<td>30%</td>
+		</tr>
+		<tr>
+			<td>四神乱舞，ダークブラスター</td>
+			<td>20%</td>
+		</tr>
+		<tr>
+			<td>グラビティ，包丁</td>
+			<td>15%</td>
+		</tr>
+	</table>
+	
+	<p>
+		明けの明星　ダメージ選択：
+		<select name="Myojo_damege_calc" size="1">
+			<option value="1">300,000万</option>
+			<option value="2">600,000万</option>
+		</select>
+	</p>
+	<p>
+		明けの明星　回数：
+		<select name="Myojo_times_calc" size="1">
+			<option value="1">1回</option>
+			<option value="2">2回</option>
+		</select>
+	</p>
+	<p>
+		敵のHP：
+		<input name="enamy_hp" type="text" placeholder="0" />
+	</p>
+	
+	<input id="btn01" type="button" value="実行">
+	<p>
+		ギガグラ後のHP：
+		
+		<!-- <output name="result"></output> -->
+	</p>
+	</form>
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
